@@ -1,0 +1,15 @@
+{
+  "name": "text-editor",
+  "version": "1.0.0",
+  "description": "As a developer , i want to create notes or code snippets with or without an internet connection so that i can reliably retrieve them for later use.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
