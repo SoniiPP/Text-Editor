@@ -4,12 +4,24 @@
   "description": "As a developer , i want to create notes or code snippets with or without an internet connection so that i can reliably retrieve them for later use.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server node server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd client && npm install",
+    "client": "cd client && npm start",
+    "heroku-prebuild": "npm install --dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^5.93.0"
   }
 }
