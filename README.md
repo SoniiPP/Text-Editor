@@ -27,7 +27,7 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
 ## Deployed application link
-Develop through render app : link:https://text-editor-4-zo79.onrender.com/
+Click here to open the [Deployed application-link:]( link:https://text-editor-4-zo79.onrender.com/)
 ## Uasge instructions 
 1. Go to the deployed link : https://text-editor-4-zo79.onrender.com/
 2. Console log the thing you wanna use .
@@ -36,4 +36,5 @@ Develop through render app : link:https://text-editor-4-zo79.onrender.com/
 ## Built- with
 Json, Webpacks , IDB packages , node.js
 ![Screenshot 2024-07-19 002826](https://github.com/user-attachments/assets/e84ce29a-129b-4288-8c94-b845657c330f)![Screenshot 2024-07-19 002726](https://github.com/user-attachments/assets/df18ae0b-c6bc-4509-9f38-0fb7db3b1423)
+
 
